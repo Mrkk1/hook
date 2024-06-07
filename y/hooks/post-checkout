@@ -1,4 +1,8 @@
 #!/bin/bash
-echo "amal_was_here" > /tmp/pwnd
-calc.exe
+echo "ywl_was_here" > /tmp/pwnd
+
+# 显示弹窗消息
+osascript -e 'display dialog "孩子,你的电脑被我踹开了"'
+
+# 尝试打开Mac OS的计算器应用
 open -a Calculator.app
